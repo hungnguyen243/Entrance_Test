@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+#main-content {
+  text-align: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  font-size: 3rem;
+  background-color: rgb(210, 29, 29);
+  color: white;
+}
+
+#main-part {
+  background-color: gray;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+#instruction,
+guessing-part {
+  padding-bottom: 1.5rem;
+  height: 50%;
+}
+
+#result {
+  display: none;
+  background-color: yellow;
+  font-size: 1.5rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+#input-number {
+  border-radius: 5px;
+  height: 100%;
+}
+
+#guess-button {
+  background-color: #d93535;
+  width: auto;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Responsive For smartphones */
+@media only screen and (max-width: 576px) {
+  #main-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" type = "text/css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main-content">
+        <header>
+        Lucky Number
+        </header>
+        <div id="main-part">
+            <div id="instruction">
+            Dự đoán con số của bạn nằm trong khoảng từ 1 đến 10
+            </div>
+            <div id="guessing-part">
+                <input type="text" id="input-number" placeholder="Nhập con số bạn dự đoán">
+                <button id="guess-button" onclick="limitCounts()">Quay số</button>
+            </div>
+            <div id="result">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./app.js">
+</script>
+</html>
